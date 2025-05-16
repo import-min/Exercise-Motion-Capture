@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "BarbellTracker",
+    "slug": "BarbellTracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/BarbellTrackLogo.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/updatelogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "$(PRODUCT_NAME) needs access to your Camera.",
+        "NSMicrophoneUsageDescription": "$(PRODUCT_NAME) needs access to your Microphone."
+      },
+      "bundleIdentifier": "com.anonymous.BarbellTracker"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/updatelogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.anonymous.BarbellTracker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a606c73f-9ba1-45ae-b419-45feed081252"
+      }
+    }
+  }
+}
